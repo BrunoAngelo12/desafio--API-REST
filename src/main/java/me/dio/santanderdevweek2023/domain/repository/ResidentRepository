@@ -1,0 +1,8 @@
+package me.dio.santanderdevweek2023.domain.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import java.me.dio.santanderdevweek2023.domain.model.Resident;
+
+public interface ResidentRepository extends JpaRepository<Resident, Long>{
+
+}
